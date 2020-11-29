@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.knockout {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.oibai {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  text-align: center;
+}
+
+body {
+  margin: 64px auto;
+  width: 94%;
+  max-width: 640px;
+  line-height: 1.0;
+  
+}

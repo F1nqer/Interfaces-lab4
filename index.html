@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="knockout">
+<h1 class="knockout">Functions</h1>
+<div class="knockout">
+  <ol class="knockout">
+    <li><button class="knockout" onMouseout="errorsView('You moused away');"> Cursor out</a></li>
+    <li><button class="knockout" onMouseover="errorsView('You moused over');"> Cursor over</a></li>
+    <li><button class="knockout" onClick="errorsView('You clicked');"> Click</a></li>
+  </ol>
+  <form onSubmit="validateField('email');">
+    <p>
+      <h2 for="email">Change colour onBlur/onFocus</label>
+      <input id="email" type="text" onFocus="this.style.backgroundColor='green';" onBlur="this.style.backgroundColor='red';">
+    </p>
+    <p>
+      <input class="knockout" type="submit" value="Submit" onClick="errorsView('You clicked submit!');">
+    </p>
+  </form>
+</div>
+</div>
+<div class="knockout"><p>DB for actions:</p>
+  <span id="errors"></span></div>
+  <script  src="./script.js"></script>
+</body>
+</html>
+
